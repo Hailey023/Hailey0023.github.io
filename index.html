@@ -1,153 +1,236 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" >
-
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>Hailey&#39;s fantasy</title>
-
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://hailey023.github.io/favicon.ico?v=1622467387622">
-<link rel="stylesheet" href="https://hailey023.github.io/styles/main.css">
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="description" content="Hailey&#39;s fantasy"/>
+<meta name="keywords" content="Hailey&#39;s fantasy"/>
+<link rel="shortcut icon" href="https://hailey023.github.io/Hailey0023.github.io//favicon.ico">
+<link rel="stylesheet" href="https://hailey023.github.io/Hailey0023.github.io//styles/main.css">
 
 
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<!-- Comment -->
+
+
+<link href="https://cdn.bootcss.com/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
 
 
 
-    <meta name="description" content="Hailey&#39;s fantasy">
-    
-  </head>
-  <body>
-    <div id="app" class="main">
+</head>
+<body class="home-template">
+<div id="page" class="site">
 
-      <div class="sidebar" :class="{ 'full-height': menuVisible }">
-  <div class="top-container" data-aos="fade-right">
-    <div class="top-header-container">
-      <a class="site-title-container" href="https://hailey023.github.io">
-        <img src="https://hailey023.github.io/images/avatar.png?v=1622467387622" class="site-logo">
-        <h1 class="site-title">Hailey&#39;s fantasy</h1>
-      </a>
-      <div class="menu-btn" @click="menuVisible = !menuVisible">
-        <div class="line"></div>
-      </div>
+    <header class="site-header">
+    <h1 class="site-title"><a href="https://hailey023.github.io/Hailey0023.github.io/">Hailey&#39;s fantasy</a></h1>
+    <a class="sidebar-toggle"><span class="screen-reader-text">Menu</span><span class="icon" aria-hidden="true"></span></a>
+</header>
+
+<aside class="sidebar">
+    <div class="sidebar-scrollable">
+        <div class="inner">
+            <div class="widget-area">
+                <!-- 菜单 -->
+                <nav class="site-navigation">
+                    <h2>Hailey&#39;s fantasy</h2>
+                    <ul class="menu">
+                        
+                            <li class="menu-item home current-menu-item">
+                                <a href="/"
+                                
+                                >首页</a>
+                            </li>
+                        
+                            <li class="menu-item home current-menu-item">
+                                <a href="/archives"
+                                
+                                >归档</a>
+                            </li>
+                        
+                            <li class="menu-item home current-menu-item">
+                                <a href="/tags"
+                                
+                                >标签</a>
+                            </li>
+                        
+                            <li class="menu-item home current-menu-item">
+                                <a href="/post/about"
+                                
+                                >关于</a>
+                            </li>
+                        
+                    </ul>
+                </nav>
+
+                <section class="widget widget-about">
+                    <h2 class="widget-title">关于</h2>
+                    <p>Hailey&#39;s fantasy</p>
+                </section>
+
+                <section class="widget widget-tags">
+                    <h2 class="widget-title">标签</h2>
+                    <div class="tagcloud">
+                        
+                            <a href="https://hailey023.github.io/Hailey0023.github.io/tag/Ca8b-liHB/" class="button">
+                                Gridea
+                                <span aria-hidden="true"><span class="line left"></span><span class="line top"></span><span class="line right"></span><span class="line bottom"></span></span>
+                            </a>
+                        
+                    </div>
+                </section>
+
+            </div>
+            <a class="sidebar-toggle"><span class="screen-reader-text">Close</span><span class="icon" aria-hidden="true"></span></a>
+        </div>
     </div>
-    <div>
-      
-        
-          <a href="/" class="site-nav">
-            首页
-          </a>
-        
-      
-        
-          <a href="/archives" class="site-nav">
-            归档
-          </a>
-        
-      
-        
-          <a href="/tags" class="site-nav">
-            标签
-          </a>
-        
-      
-        
-          <a href="/post/about" class="site-nav">
-            关于
-          </a>
-        
-      
-    </div>
-  </div>
-  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
-    <div class="social-container">
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    </div>
-    <div class="site-description">
-      Hailey's fantasy
-    </div>
-    <div class="site-footer">
-      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://hailey023.github.io/atom.xml" target="_blank">RSS</a>
-    </div>
-  </div>
-</div>
+</aside>
 
 
-      <div class="main-container">
-        <div class="content-container" data-aos="fade-up">
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://hailey023.github.io/post/test/">
-                  <h2 class="post-title">test</h2>
-                </a>
-                <div class="post-date">
-                  2021-05-30
+    <main class="site-main">
+        <div class="site-content">
+            <!-- 封面 -->
+            <div class="cover hero">
+                <div class="cover-bg" style="background-image: linear-gradient( 135deg, #EE9AE5 10%, #5961F9 100%);">
+                    
                 </div>
-                <div class="post-abstract">
-                  
+                <div class="cover-content">
+                    <!-- 封面内容 -->
+                    <div class="inner">
+                        <h2 class="hero-title"></h2>
+                        <p class="hero-text"></p>
+                        <a href="#post-list" class="arrow-down" data-scroll><span class="screen-reader-text">Scroll Down</span></a>
+                    </div>
                 </div>
-              </div>
-              
-            </article>
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://hailey023.github.io/post/hello-gridea/">
-                  <h2 class="post-title">Hello Gridea</h2>
-                </a>
-                <div class="post-date">
-                  2018-12-12
-                </div>
-                <div class="post-abstract">
-                  <p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+            </div>
 
-                </div>
-              </div>
-              
-                <a class="right" href="https://hailey023.github.io/post/hello-gridea/">
-                  <div class="feature-container" style="background-image: url('https://hailey023.github.io/post-images/hello-gridea.png')">
-                  </div>
-                </a>
-              
-            </article>
-          
+            <!-- post-list -->
+            <div id="post-list" class="post-list inner">
+                
+                    <article class="post">
+                        <!-- post-header -->
+                        <header class="post-header">
+                            <div class="post-tags">
+                                
+                            </div>
+                            <div class="post-header-wrap">
+                                <h2 class="post-title">
+                                    <a href="https://hailey023.github.io/Hailey0023.github.io/post/test/">test</a>
+                                </h2>
+                                <div class="post-meta">
+                                    <i class="fa fa-eye"></i>
+                                    <span class="post-author">1 min read</span>
+                                    <time class="published"
+                                          datetime="2021-05-30">2021-05-30</time>
+                                </div>
+                            </div>
+                        </header>
+                        <!-- post-content -->
+                        <div class="post-content">
+                            <div class="read-more">
+                                <a class="button" href="https://hailey023.github.io/Hailey0023.github.io/post/test/">
+                                    Read More
+                                    <span aria-hidden="true"></span>
+                                    <span class="line left"></span>
+                                    <span class="line top"></span>
+                                    <span class="line right"></span>
+                                    <span class="line bottom"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                
+                    <article class="post">
+                        <!-- post-header -->
+                        <header class="post-header">
+                            <div class="post-tags">
+                                
+                                    
+                                        <a href="https://hailey023.github.io/Hailey0023.github.io/tag/Ca8b-liHB/">Gridea&nbsp;&nbsp;</a>
+                                    
+                                
+                            </div>
+                            <div class="post-header-wrap">
+                                <h2 class="post-title">
+                                    <a href="https://hailey023.github.io/Hailey0023.github.io/post/hello-gridea/">Hello Gridea</a>
+                                </h2>
+                                <div class="post-meta">
+                                    <i class="fa fa-eye"></i>
+                                    <span class="post-author">2 min read</span>
+                                    <time class="published"
+                                          datetime="2018-12-12">2018-12-12</time>
+                                </div>
+                            </div>
+                        </header>
+                        <!-- post-content -->
+                        <div class="post-content">
+                            <div class="read-more">
+                                <a class="button" href="https://hailey023.github.io/Hailey0023.github.io/post/hello-gridea/">
+                                    Read More
+                                    <span aria-hidden="true"></span>
+                                    <span class="line left"></span>
+                                    <span class="line top"></span>
+                                    <span class="line right"></span>
+                                    <span class="line bottom"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                
+            </div>
 
-          <div class="pagination-container">
-  
-  
-</div>
+            <nav class="pagination">
+    <h2 class="screen-reader-text">Posts Navigation</h2>
+    <div class="inner">
+        <span class="page-number"></span>
+        
+        
+    </div>
+</nav>
+
 
         </div>
-      </div>
+    </main>
+
+    <footer class="site-footer">
+    <div class="inner">
+        <!-- 社交 -->
+        <div class="offsite-links">
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+        </div>
+
+        <div class="site-info">
+            THEME BY <a href="https://github.com/GalaxySuze/gridea-theme-subtle-galaxy">Subtle Galaxy</a>, REFERENCE FROM <a href="https://subtle.justgoodthemes.com/">Subtle</a><br/>
+            Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+        </div>
+        <a href="#page" class="arrow-up" data-scroll><span class="screen-reader-text">Back to the top</span></a>
     </div>
+</footer>
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+</div>
+
+<script src="https://hailey023.github.io/Hailey0023.github.io//media/scripts/_core/plugins.js"></script>
+<script src="https://hailey023.github.io/Hailey0023.github.io//media/scripts/_core/custom.js"></script>
+
+<!-- highlight -->
+<script src="https://cdn.bootcss.com/highlight.js/9.15.8/highlight.min.js"></script>
+<!-- Md5 Min JS -->
+<script src="https://hailey023.github.io/Hailey0023.github.io//media/scripts/_vendors/md5.min.js"></script>
+
 <script type="application/javascript">
-
-AOS.init();
-
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
+    // 代码高亮
+    hljs.initHighlightingOnLoad();
 
 </script>
 
@@ -155,6 +238,5 @@ var app = new Vue({
 
 
 
-
-  </body>
+</body>
 </html>
